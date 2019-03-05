@@ -1,0 +1,225 @@
+/*BASIC LAYOUT USED EVERYWHERE*/
+body{
+	background-color: #292929;
+	background-size: cover;
+}
+.nav_container{
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 2vw;
+	padding-right: 2vw;
+}
+#logo1{
+	width: 10vw;
+	height: 4vw;
+	padding-right: 23.5vw;
+}
+nav button{
+	width: 12vw;
+	height: 3vw;
+	background-color: transparent;
+	word-spacing: 1vw;
+	border-radius: 5em;
+	border-color: #ec3360;
+	border: none;
+}
+button a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+nav button:hover{
+	/*background-color: rgba(100,100,120,0.5);*/
+	background-color: #e9164b;
+	border-radius: 6.5em;
+	border:thick;
+}
+
+
+.new_ques,
+.new_cat
+{
+	background-color: #e9164b;
+	border-radius: 6em;
+	text-decoration: none;
+	border:none; 
+	padding-right: 1.8vw; padding-left: 1.8vw; padding-top: 1vw; padding-bottom: 1vw;
+	margin-left: 2vw;
+	word-spacing: 0.6vw;
+}
+
+
+.container1{
+	display: flex;
+	flex-direction: row;
+	padding: 1vw;
+}
+
+.container2{
+	display: flex;
+	flex-direction: column;
+	width: 18vw;
+	height: 60vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	border-width: 2vw;
+	background-color: white;
+	border-radius: 1vw;
+	margin-right: 1vw;
+}
+.container4{
+	display: flex;
+	flex-direction: column;
+	width: 18vw;
+	height: 35vw;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	border-width: 2vw;
+	background-color: white;
+	border-radius: 1vw;
+	margin-right: 1vw;
+}
+
+.container2 h1,
+.container4 h1{
+	font-size: 3vw;
+	padding-right: 2vw;
+	
+}
+
+.container2 div,
+.container4 div{
+	font-size: 1.5vw;
+	text-align: left;
+	padding-left: 1vw;
+}
+
+.container3{
+	display: flex;
+	flex-direction: column;
+	width: 75vw;
+	height: relative;
+	padding-left: 1vw;
+	padding-top: 1vw;
+	padding-right: 1vw;
+	border-width: 2vw;
+	background-color: white;
+	border-radius: 1vw;
+	margin-left: 1vw;
+}
+
+.container3 h1{
+	font-size: 3vw;
+}
+
+/*DROPDOWN CHECK*/
+
+.dropbtn {
+  background-color: #e9164b;
+  color: white;
+  padding: 1.2vw;
+  font-size: 16px;
+  border: none;
+  height: 2.5vw;
+  width: 15vw;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+   background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+
+  color: black  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+	background-color: orange;
+	height: 1.5vw;
+	width: 14vw;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+a{
+	text-decoration: none;
+}
+
+.content1{
+	background-color: #1e88e5;
+	/*border-radius: 1vw;*/
+}
+
+.title{
+	font-size: 3vw;
+	/*font-family: "Ubuntu";*/
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+.details{
+	font-size: 1.50vw;
+	padding-left: 0.8vw;
+}
+.content{
+	background-color:#b2ebf2;
+	font-size: 2vw;
+	height: relative;
+	font-family: "Ubuntu";
+}
+.content5{
+	background-color:#DE3913;
+	font-size: 1.4vw;
+	font-family: "Ubuntu";
+}
+.content textarea{
+	margin-left: 22vw;
+	border-radius: 1vw;
+}
+.content input[type="submit"]{
+	border:none;
+		outline: none;
+		width: 10vw;
+		height: 2.8vw;
+		background: #1e88e5;
+		margin-left: 32vw;
+		font-size:18px;
+		font-weight: bold;
+        border-radius: 18px;
+}
+.topic-table{
+	background-color: yellow;
+	font-size: 2vw;
+}
+.subcategory_title{
+	font-family: "Ubuntu";
+	font-size: 5vw;
+	text-align: center;
+	font-weight: bold;
+	color:green;
+}

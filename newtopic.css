@@ -1,0 +1,91 @@
+body{
+	background-color: #292929;
+	background-size: cover;
+}
+
+.nav_container{
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 2vw;
+	padding-right: 2vw;
+}
+#logo1{
+	width: 10vw;
+	height: 4vw;
+	padding-right: 23.5vw;
+}
+nav button{
+	width: 12vw;
+	height: 3vw;
+	background-color: transparent;
+	word-spacing: 1vw;
+	border-radius: 5em;
+	border-color: #ec3360;
+	border: none;
+}
+button a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+nav button:hover{
+	background-color: #e9164b;
+	border-radius: 6.5em;
+	border:thick;
+}
+.addnew_topic{
+		width: 33vw;
+		height: 42vw;
+		background-color: rgba(233, 22, 75, 0.86);
+		color:#fff;
+		position: absolute;
+		left:33.7%;
+		top:75%;
+		box-sizing: border-box;
+		padding: 30px 50px;
+		border-radius:20px;
+		font-family: "Ubuntu";
+}
+.addnew_topic p{
+		margin: 0;
+		padding-top: 2px;
+		font-weight: italic;
+}
+.addnew_topic input{
+		width: 100%;
+		margin-bottom: 15px;
+		font-family: "Ubuntu";
+		font-size: 1.12vw;
+}
+.addnew_topic input[type="text"]
+	{
+		border:none;
+		height: 25px;
+		border-radius: 0.8vw;
+		border-bottom: 1px solid #fff;
+		padding-left: 0.8rem;
+	}
+	textarea{
+		height: 20vw;
+		border-radius: 0.8vw;
+		width: 100%;
+	}
+.addnew_topic input[type="submit"]{
+		border:none;
+		outline: none;
+		height: 40px;
+		background: #1e88e5;
+		font-size:18px;
+		font-weight: bold;
+        border-radius: 18px;
+	}
+	.addnew_topic input[type="submit"]:hover{
+     cursor:pointer;
+     background: #FCE302;
+     color:#000;
+	}
+	#submit{
+		padding-left: 2px;
+
+	}

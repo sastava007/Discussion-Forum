@@ -1,0 +1,113 @@
+body{
+	/*background-image: url("bg.jpg");*/
+	background-color: #292929;
+}
+
+.nav_container{
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 2vw;
+	padding-right: 2vw;
+}
+#logo1{
+	width: 10vw;
+	height: 4vw;
+	padding-right: 20vw;
+}
+nav button{
+	width: 12vw;
+	height: 3vw;
+	word-spacing: 1vw;
+	background-color:transparent;
+	border: none;
+}
+button a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+nav button:hover{
+	background-color: #e9164b;
+	border-radius: 6.5em;
+	border:thick;
+}
+
+
+.main_container{
+	display: flex;
+	flex-direction: column;
+	padding-top: 2vw;
+	width: 100%;
+}
+
+.main_container h1{
+	font-size: 5vw;
+	text-align: center;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	color: white;
+	font-family: "Tangerine";
+}
+
+.img1{
+	width: 100%;
+	height: 20vw;
+}
+
+.team_members{
+	display: flex;
+	flex-direction: row;
+}
+
+.member{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.mem{
+	height: 30vw;
+	width: 30vw;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	border-radius: 50%;
+}
+
+.mem:hover{
+	opacity: 0.8;
+}
+
+.social{
+	display: flex;
+	flex-direction: row;
+	padding-left: 12vw;
+}
+
+.social img{
+	height: 4vw;
+	width: 4vw;
+	padding: 0.5vw;
+}
+
+.social img:hover{
+	opacity: 0.8;
+}
+
+.info{
+	 background-color: white;
+	 padding: 4vw;
+	 margin: 4vw;
+	 margin-bottom: 8vw;
+	 border-radius: 3%;
+	 font-size: 1.5vw;
+	 text-align: justify;
+	 width: 55vw;
+	 font-style: italic;
+}
+.info:hover{
+	color:#e9164b;
+	font-size: 24px;
+}
+
+

@@ -1,0 +1,105 @@
+body{
+	background-image: url("reg_bg.jpeg");
+	background-size: cover;
+}
+
+/*Navigation bar*/
+#logo1{
+	width: 11vw;
+	height: 4vw;
+	padding-right: 70vw;
+}
+.nav_container{
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 2vw;
+	padding-right: 2vw;
+}
+nav button{
+	width: 12vw;
+	height: 3vw;
+	word-spacing: 1vw;
+	background-color:#FCE302;
+	border: none;
+	border-radius: 5em;
+}
+button a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3vw;
+	font-weight: bold;
+}
+nav button:hover{
+	background-color: rgba(100,100,120,0.6);
+	border-radius: 5em;
+}
+
+/*Registration part*/
+.registration_form{
+	width: 38vw;
+		height: 38.5vw;
+		background-color: rgba(115,126,146,0.75);
+		color:#fff;
+		position: absolute;
+		left:33.7%;
+		top:28%;
+		box-sizing: border-box;
+		padding: 30px 50px;
+		border-radius:20px;
+		font-family: "Ubuntu";
+}
+.registration_form img{
+		width: 5.625em;
+		height: 5em;
+		border-radius: 50%;
+		position: absolute;
+		top:-50px;
+		left:42%;
+}
+h1{
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+		text-align: center;
+	}
+.registration_form p{
+		margin: 0;
+		padding-top: 2px;
+		font-weight: italic;
+}
+.registration_form input{
+		width: 100%;
+		margin-bottom: 15px;
+		font-family: "Ubuntu";
+		font-size: 1.12vw;
+}
+.registration_form input[type="text"],input[type="password"],input[type="number"],input[type="email"]
+	{
+		border:none;
+		height: 25px;
+		border-radius: 12px;
+		border-bottom: 1px solid #fff;
+		padding-left: 0.8rem;
+	}
+.registration_form input[type="submit"]{
+		border:none;
+		outline: none;
+		height: 40px;
+		background: #fff;
+		font-size:18px;
+		font-weight: bold;
+        border-radius: 18px;
+	}
+.registration_form input[type="file"]{
+	font-family: "Ubuntu";
+	font-size: 1.12vw;
+}
+.registration_form input[type="submit"]:hover{
+     cursor:pointer;
+     background: #FCE302;
+     color:#000;
+	}
+#submit{
+	padding-left: 2px;
+}
+

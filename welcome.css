@@ -1,0 +1,141 @@
+body .container{
+	margin: 0vw;
+   	padding: 0vw;
+   	overflow: hidden;
+   	position: relative;
+	background-size: auto;
+}
+.item1,
+.item2,
+.item3,
+.item4{
+	position: absolute;
+	display: block;
+	top: 28%;
+	width: 53%;
+	left: 40%;
+	/*font-family: "Tangerine";*/
+	font-family: "Pacifico";
+	font-weight: bold;
+	font-size: 3vw;
+	color:white;
+	animation-duration: 15s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item1{
+	animation-name: anim-1;
+}
+
+.item2{
+	animation-name: anim-2;
+}
+
+.item3{
+	animation-name: anim-3;
+}
+
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 47%; opacity: 1; }
+  33.33%, 100% { left: 10%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 47%; opacity: 1; }
+  66.66%, 100% { left: 10%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 47%; opacity: 1; }
+  100% { left: 10%; opacity: 0; }
+}
+
+
+
+a:link{
+	text-decoration: none;
+	text-decoration-color: #000;
+}
+.loginbox{
+	width: 17em;
+	height: 30em;
+	background-color: rgba(108,61,105,0.7);
+	color:#fff;
+	position: absolute;
+	left:79.5%;
+	top:20%;
+	box-sizing: border-box;
+	padding: 30px 50px;
+	border-radius:18px;
+	font-family: "Ubuntu";
+}
+#user{
+	width: 5.625em;
+	height: 5em;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left:35%;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: center;
+}
+.loginbox p{
+	margin: 0;
+	padding-top: 2px;
+	font-weight: italic;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+	border:none;
+	height: 25px;
+	border-radius: 12px;
+	border-bottom: 1px solid #fff;
+	padding-left: 0.8rem;
+}
+.loginbox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fff;
+	font-size:18px;
+    border-radius: 18px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    background: #1a75ff;
+    color:#000;
+}
+#submit{
+	padding-left: 2px;
+}
+.registration{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fff;
+	font-size:18px;
+	font-family: "Ubuntu";
+    border-radius: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+    margin-left: 0px;
+}
+.registration:hover{
+	cursor: pointer;
+	background-color: #1a75ff;
+	color: #000;
+}
+
