@@ -29,8 +29,6 @@ The hierarchy of this site is in following order: Categories -> Subcategories ->
 User need to first register his account which will be followed by verification from Admin, after which only he can successfully login. User has the right to ask a new question or browse through the pre-existing questions under a particular category. He can also upvote the comments made by other user or delete his own comments. 
 Categories and subcategories can only be created by Admin of this site, otherwise it would make a state of chaos if each user add a new category every time.
 
-## In case of any feedback/suggestions or you find a bug in the code, feel free to share 
-Email: sastava007@gmail.com 
 ## For finding more such interesting projects do visit my portfolio website
-[https://sastava007.github.io](https://www.google.com)
+[Portfolio Website](https://sastava007.github.io)
 
